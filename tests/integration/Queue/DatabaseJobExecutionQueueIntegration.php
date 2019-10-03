@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Akeneo\Tool\Bundle\BatchQueueBundle\tests\integration\Queue;
 
 use Akeneo\Test\Integration\TestCase;
-use Akeneo\Tool\Component\BatchQueue\Queue\JobExecutionMessage;
-use Akeneo\Tool\Component\BatchQueue\Queue\JobExecutionQueueInterface;
+use Akeneo\Tool\Bundle\BatchQueue\Queue\JobExecutionMessage;
+use Akeneo\Tool\Bundle\BatchQueue\Queue\JobExecutionQueueInterface;
 use Doctrine\DBAL\Driver\Connection;
 
 class DatabaseJobExecutionQueueIntegration extends TestCase

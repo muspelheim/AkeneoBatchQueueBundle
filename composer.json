@@ -1,0 +1,32 @@
+{
+  "name": "akeneo/batch-queue-bundle",
+  "type": "symfony-bundle",
+  "description": "Akeneo Symfony Batch Bundle",
+  "keywords": ["Akeneo", "Batch", "Job", "Reader", "Writer", "Processor"],
+  "homepage": "https://github.com/akeneo/BatchBundle",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Akeneo",
+      "homepage": "http://www.akeneo.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "akeneo/storage-utils": "^0.6",
+    "akeneo/batch": "^0.6",
+    "akeneo/batch-bundle": "^0.6",
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": { "Akeneo\\Tool\\Bundle\\BatchQueueBundle\\": "" }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.6.x-dev"
+    }
+  }
+}
