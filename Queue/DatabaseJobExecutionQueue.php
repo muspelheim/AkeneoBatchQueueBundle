@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Akeneo\Tool\Bundle\BatchQueueBundle\Queue;
 
-use Akeneo\Tool\Bundle\BatchQueue\Queue\JobExecutionMessage;
-use Akeneo\Tool\Bundle\BatchQueue\Queue\JobExecutionQueueInterface;
+use Akeneo\Tool\Bundle\BatchQueueBundle\Queue\JobExecutionMessage;
+use Akeneo\Tool\Bundle\BatchQueueBundle\Queue\JobExecutionQueueInterface;
 
 /**
  * Aims to publish and consume job execution messages in a queue stored in database.

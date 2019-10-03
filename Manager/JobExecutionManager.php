@@ -8,7 +8,7 @@ use Akeneo\Tool\Bundle\BatchQueueBundle\Command\JobQueueConsumerCommand;
 use Akeneo\Tool\Component\Batch\Job\BatchStatus;
 use Akeneo\Tool\Component\Batch\Job\ExitStatus;
 use Akeneo\Tool\Component\Batch\Model\JobExecution;
-use Akeneo\Tool\Bundle\BatchQueue\Queue\JobExecutionMessage;
+use Akeneo\Tool\Bundle\BatchQueueBundle\Queue\JobExecutionMessage;
 use Doctrine\DBAL\Types\Type;
 use Doctrine\ORM\EntityManagerInterface;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Akeneo\Tool\Bundle\BatchQueue\Queue;
+namespace Akeneo\Tool\Bundle\BatchQueueBundle\Queue;
 
 use Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository;
 use Akeneo\Tool\Component\Batch\Event\EventInterface;
