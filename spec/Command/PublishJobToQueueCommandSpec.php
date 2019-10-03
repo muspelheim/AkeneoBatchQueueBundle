@@ -7,7 +7,7 @@ namespace spec\Akeneo\Tool\Bundle\BatchQueueBundle\Command;
 use Akeneo\Tool\Bundle\BatchBundle\Job\DoctrineJobRepository;
 use Akeneo\Tool\Bundle\BatchBundle\Job\JobInstanceRepository;
 use Akeneo\Tool\Component\Batch\Model\JobInstance;
-use Akeneo\Tool\Component\BatchQueue\Queue\PublishJobToQueue;
+use Akeneo\Tool\Bundle\BatchQueue\Queue\PublishJobToQueue;
 use Doctrine\ORM\EntityManagerInterface;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
