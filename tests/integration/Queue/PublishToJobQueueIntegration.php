@@ -8,7 +8,7 @@ use Akeneo\Pim\Enrichment\Component\Product\Model\ProductInterface;
 use Akeneo\Test\Integration\TestCase;
 use Akeneo\Test\IntegrationTestsBundle\Launcher\JobLauncher;
 use Akeneo\Tool\Component\Batch\Job\BatchStatus;
-use Akeneo\Tool\Bundle\BatchQueue\Queue\PublishJobToQueue;
+use Akeneo\Tool\Bundle\BatchQueueBundle\Queue\PublishJobToQueue;
 use Doctrine\DBAL\Driver\Connection;
 use InvalidArgumentException;
 use RuntimeException;

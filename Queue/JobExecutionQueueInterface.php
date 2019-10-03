@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Akeneo\Tool\Bundle\BatchQueue\Queue;
+namespace Akeneo\Tool\Bundle\BatchQueueBundle\Queue;
 
 /**
  * This class aims to publish and consume job execution messages into a queue.
