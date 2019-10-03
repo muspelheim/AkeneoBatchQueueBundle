@@ -15,7 +15,7 @@
     "php": ">=7.1.0",
     "akeneo/storage-utils": "^0.6",
     "akeneo/batch": "^0.6",
-    "akeneo/batch-bundle": "^0.6",
+    "akeneo/batch-bundle": "^0.6"
   },
   "config": {
     "bin-dir": "bin"
